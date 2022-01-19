@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Outfit:wght@300;400;500;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap");
+
+/*reset css code*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*css starts here*/
+
+body {
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: rgb(92, 91, 91);
+  width: 400px;
+  padding: 40px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  align-items: stretch;
+}
+
+.num-display {
+  background-color: darkgray;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  grid-column: 1/5;
+  grid-row: 1/4;
+}
+
+.calculator-btn,
+.operands {
+  font-family: "Outfit";
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: large;
+  border: none;
+}
+
+.screen-current {
+  font-size: xx-large;
+  margin: 10px;
+  padding: 10px;
+}
+.ac,
+.equals {
+}
