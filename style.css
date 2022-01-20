@@ -166,6 +166,7 @@ body {
 
 .calculator-btn,
 .operands {
+  background-color: azure;
   font-family: "Outfit";
   margin: 5px;
   border-radius: 10px;
