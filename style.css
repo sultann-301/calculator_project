@@ -187,7 +187,7 @@ body {
 .backspace {
   background-color: rgb(92, 24, 24);
   color: white;
-  grid-column: 1/3;
+  grid-column: span 2;
 }
 
 .operands {
